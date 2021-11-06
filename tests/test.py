@@ -18,7 +18,6 @@ file_locations = os.path.expanduser(os.getcwd())
 logisim_location = "logisim.jar"
 
 
-
 class TestCase():
     """
       Runs specified circuit file and compares output against the provided reference trace file.
