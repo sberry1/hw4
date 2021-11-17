@@ -98,7 +98,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,320)" to="(180,330)"/>
     <wire from="(120,120)" to="(240,120)"/>
     <wire from="(510,210)" to="(510,220)"/>
-    <wire from="(580,220)" to="(620,220)"/>
     <wire from="(280,190)" to="(450,190)"/>
     <wire from="(240,330)" to="(410,330)"/>
     <wire from="(210,240)" to="(210,260)"/>
@@ -111,10 +110,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,240)" to="(440,240)"/>
     <wire from="(180,240)" to="(210,240)"/>
     <wire from="(170,310)" to="(200,310)"/>
+    <wire from="(610,220)" to="(610,260)"/>
     <wire from="(110,290)" to="(140,290)"/>
     <wire from="(410,260)" to="(440,260)"/>
     <wire from="(510,210)" to="(540,210)"/>
     <wire from="(510,220)" to="(540,220)"/>
+    <wire from="(580,220)" to="(610,220)"/>
     <wire from="(140,290)" to="(140,400)"/>
     <wire from="(120,200)" to="(140,200)"/>
     <wire from="(450,190)" to="(450,230)"/>
@@ -135,6 +136,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(240,190)" to="(250,190)"/>
     <wire from="(190,330)" to="(200,330)"/>
     <wire from="(480,200)" to="(480,250)"/>
+    <wire from="(600,260)" to="(610,260)"/>
+    <wire from="(610,220)" to="(620,220)"/>
     <comp lib="6" loc="(605,454)" name="Text">
       <a name="text" val="asr"/>
     </comp>
@@ -170,9 +173,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="4"/>
       <a name="value" val="0x2"/>
     </comp>
-    <comp lib="6" loc="(86,236)" name="Text">
-      <a name="text" val="cmd"/>
-    </comp>
     <comp lib="0" loc="(110,290)" name="Pin">
       <a name="width" val="2"/>
       <a name="tristate" val="false"/>
@@ -181,6 +181,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(640,490)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0x8"/>
+    </comp>
+    <comp lib="6" loc="(90,223)" name="Text">
+      <a name="text" val="cmd"/>
     </comp>
     <comp lib="0" loc="(170,350)" name="Constant">
       <a name="width" val="4"/>
@@ -256,6 +259,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="6" loc="(115,224)" name="Text">
       <a name="text" val="S"/>
+    </comp>
+    <comp lib="0" loc="(600,260)" name="Probe">
+      <a name="radix" val="10unsigned"/>
     </comp>
     <comp lib="0" loc="(200,170)" name="Probe">
       <a name="label" val="cmd"/>
